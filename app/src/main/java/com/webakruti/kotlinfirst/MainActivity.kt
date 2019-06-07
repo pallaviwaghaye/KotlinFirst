@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val buttonRetrofit = findViewById<Button>(R.id.buttonRetrofit)
         buttonRetrofit.setOnClickListener(this)
+
+        val buttonNavigationView = findViewById<Button>(R.id.buttonNavigationView)
+        buttonNavigationView.setOnClickListener(this)
+
         /*val textView = findViewById<TextView>(R.id.textView)
         textView.setText("string").toString()
         val textViewValue = textView.text*/
@@ -80,6 +84,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.buttonRetrofit -> {
                 val intent1 = Intent(this, RetrofitActivity::class.java)
                 startActivity(intent1)
+            }
+
+            R.id.buttonNavigationView -> {
+                val intent2 = Intent(this,NavigationActivity::class.java)
+                startActivity(intent2)
             }
 
         }

@@ -38,7 +38,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:text="Wiring Electrician"
+                        android:text="Recycler View"
                         android:textSize="16dp"
                         android:textColor="@color/black" />
                 </LinearLayout>
